@@ -1,0 +1,10 @@
+[package]
+name = "InsertMongoDb"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+walkdir = "*"
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1", features = ["derive"]}
+mongodb = "2.0" 
